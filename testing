@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article Page</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<h1>Title</h1>
+<br/>
+<h3>Content</h3>
+<br/><br/>
 </body>
 </html>
