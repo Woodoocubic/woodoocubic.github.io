@@ -1,0 +1,165 @@
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #00484b;
+    color: azure;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    color: azure;
+    position: relative;
+    padding: 0 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.add-task input[type=text]{
+    background: white;
+    width: 84%;
+    float: left;
+    margin-right: 1%;
+}
+.add-task input[type=submit]{
+    width: 15%;
+    background: #46b1e4;
+
+}
+
+.add-task input[type=submit]
+.task-item {
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+}
+
+.add-task input[type=submit]:hover{
+
+}
+
+.task-list{
+    margin: 10px 0px;
+}
+input,
+.task-item,
+button,
+.task-detail-mask,
+.textarea
+{
+    border-radius: 3px;
+    padding: 10px;
+}
+
+button, textarea,input[type=text], input[type=datetime-local] {
+    border: 0;
+}
+
+textarea, input[type=text], input[type=datetime-local]{
+
+    width: 100%;
+    display: block;
+    background: #dddddd;
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .2);
+}
+
+textarea{
+    min-height: 100px;
+}
+
+input[type=text] hover,
+input[type=datetime-local] hover,
+input[type=text]:focus,
+input[type=datetime-local] focus
+{
+    background: #ffffff;
+}
+button{
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+}
+
+.task-item{
+    padding: 10px;
+    background: #ffffff;
+    color: #333333;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px rgba(0,0,0 .4);
+    cursor: pointer;
+    -webkit-transition: background-color .6s;
+    -moz-transition: background-color .6s;
+    -ms-transition: background-color .6s;
+    -o-transition: background-color .6s;
+    transition: background-color .6s;
+    outline: 0px;
+}
+.task-item:hover
+{
+    background: #dddddd;
+}
+
+.task-detail{
+    background: #ffffff;
+    color: #333333;
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    bottom:0;
+    right: 0;
+}
+
+.task-detail .content{
+    padding: 10px;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.task-detail >*{
+    margin-bottom: 10px;
+}
+
+.task-detail-mask, .task-detail{
+    position: fixed;
+    display: none;
+}
+
+.task-detail-mask{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(30,30,30, .6);
+
+}
+
+.action{
+    color: #888888;
+    font-size: 90%;
+}
+
+.action:hover
+{
+    color: #333333;
+}
+
+.fr{
+    float: right;
+}
+
+.task-content{
+    margin-left: 10px;
+}
